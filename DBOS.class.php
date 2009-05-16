@@ -1505,7 +1505,7 @@ class DBOS extends DBObjectAC {
 /**
 * ACTree might end up extending all of this for tree/node type tables.
 */
-include_once(dirname(__FILE__)."/DBOS/ACTree.class.php");
+include_once(dirname(__FILE__)."/ACTree.class.php");
 
 //
 //  Some shared functions

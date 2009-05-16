@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://pear.php.net/dtd/package-2.0"
+    xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+http://pear.php.net/dtd/tasks-1.0.xsd
+http://pear.php.net/dtd/package-2.0
+http://pear.php.net/dtd/package-2.0.xsd">
+ <name>DBOS</name>
+ <channel>activecore-pear.activistinfo.org</channel>
+ <extends></extends>
+ <summary>ActiveCore base data object classes.</summary>
+ <description>ActiveCore base data object classes.</description>
+ <lead>
+    <name>Jonah Baker</name>
+    <user>jonah</user>
+    <email>jonah@activistinfo.org</email>
+    <active>yes</active>
+ </lead>
+ <date>2008-12-10</date>
+ <version>
+  <release>1.1.0</release>
+  <api>1.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.php.net/license/">GPL</license>
+ <notes>
+First release of the DBOS files.
+ </notes>
+ <contents>
+    <dir name="/">
+        <file name="DBObjectAC.class.php" role="php" />
+        <file name="DBOS.class.php" role="php" />
+        <file name=".DBOS.package.xml" role="doc" />
+        <dir name="DBOS">
+           <file name="ACTable.class.php" role="php" />
+        </dir>
+     </dir>
+
+ </contents>
+ <compatible>
+  <name>FooPackage</name>
+  <channel>pear.php.net</channel>
+  <min>1.3.0</min>
+  <max>1.5.0</max>
+ </compatible>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.2</min>
+    <max>6.0.0</max>
+   </php>
+   <pearinstaller>
+    <min>1.4.0dev13</min>
+   </pearinstaller>
+   <arch>
+    <pattern>*-i?86-*-*</pattern>
+   </arch>
+  </required>
+  <optional></optional>
+ </dependencies>
+ <usesrole>
+  <role>foo</role>
+  <package>Foo</package>
+  <channel>pear.activistinfo.org</channel>
+ </usesrole>
+ <usestask>
+  <task>footask</task>
+  <package>Footask</package>
+  <channel>pear.activistinfo.org</channel>
+ </usestask>
+ <phprelease>
+  <filelist>
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>1.3.5</release>
+    <api>1.3.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2005-02-26</date>
+   <license uri="http://www.php.net/license/3_0.txt">GPL License</license>
+   <notes>
+* Required function 'camelcaps'
+* Requires ActiveCore Scriptaculous javascript framework.
+
+   </notes>
+  </release>
+  <release>
+   <version>
+    <release>1a</release>
+    <api>1a</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2005-02-26</date>
+   <license uri="http://www.php.net/license/3_0.txt">GPL</license>
+   <notes>
+ ActiveCore data object and database table/record class system.
+   </notes>
+  </release>
+ </changelog>
+</package>
