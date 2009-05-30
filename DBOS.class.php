@@ -28,7 +28,7 @@ require_once(dirname(__FILE__)."/DBObjectAC.class.php");
  *
  *  EX:
  *  class Example extends DBOS { function __construct("table",$id,"db","optional index field if not table_id"); }
- *  You can view pretty documentation at /core/includes/classes/DBOS/docs/index.html
+ *  You can view pretty documentation at /core/classes/DBOS/docs/index.html
  *  @example DBOS/docs/example.php
  *
  * A typical class extending this would look like:

@@ -5,7 +5,7 @@
  *
  * @license GPL
  * @version $Id: $
- * @package ActivistCore
+ * @package ActiveCore
  * @subpackage DBOS
  *
  */
@@ -22,10 +22,10 @@
 class ACTable {
 
     /*
+    * Shows an error if the class can't be found.
+    *
     * @creator JB  8/27/08 1:56 PM
     * @returns The object associated with this table, with the record associated with the id given.
-    * @abstract
-    * Shows an error if the class can't be found.
     */
 
     static function factory($table,$opts=false) {
@@ -564,10 +564,10 @@ class ACTable {
     } // end function graph
 
     /*
+    * The central switch statement for the admin pages associated with DBOS tables/classes.
+    *
     * @function ACTable->adminPage
     * @creator JB  8/26/08 5:20 PM
-    * @abstract
-    * The central switch statement for the admin pages associated with DBOS tables/classes.
     */
 
     public function adminPage($action=false) {

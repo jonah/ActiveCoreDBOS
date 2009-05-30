@@ -23,7 +23,7 @@ include_once(dirname(__FILE__)."/ACTable.class.php");
 /**
 * Also see DBOS which extends DBObjectAC and gives more html editing/ajax functions.
 *
-* @package ActivistCore
+* @package ActiveCore
 * @author Sam Withrow 2007
 * @liscense GPL
 * @version 1.0  5/22/08 12:52 PM
